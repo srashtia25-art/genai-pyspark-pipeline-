@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project Data & Spark Artifacts
+data/row/*
+data/raw/*
+data/proceed/*
+data/processed/*
+!data/row/.gitkeep
+!data/raw/.gitkeep
+!data/proceed/.gitkeep
+!data/processed/.gitkeep
+
+# Apache Spark & Derby DB
+metastore_db/
+spark-warehouse/
+derby.log
+*.crc
